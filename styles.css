@@ -287,6 +287,9 @@ header h2 span{
     width: 30%;
     margin-bottom: 15vh;
 }
+.section-4-box:hover{
+    
+}
 .txt-box-4{
     padding-bottom: 5vh;
     opacity: 0.8;
@@ -352,7 +355,24 @@ header h2 span{
 .e{
     text-align: center;
 }
-
+#fb:hover{
+    border-bottom: 5px solid #4267B2;
+}
+#fb:active{
+    border-bottom: 5px solid black;
+}
+#ig:hover{
+    border-bottom: 5px solid #E1306C;
+}
+#ig:active{
+    border-bottom: 5px solid black;
+}
+#behance:hover{
+    border-bottom: 5px solid #053eff;
+}
+#behance:active{
+    border-bottom: 5px solid black;
+}
 @media only screen and (max-width: 768px) {
     header h2{
         font-size: 18px;
